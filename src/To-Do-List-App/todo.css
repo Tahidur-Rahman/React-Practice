@@ -1,0 +1,29 @@
+
+.todo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+#todo-item{
+    background: #ccc;
+    padding: .3rem 0.4rem;
+    margin: 0.3rem;
+    width: 400px;
+    display: flex;
+    justify-content: space-between;
+}
+#delete{
+    cursor: pointer;
+}
+#btn{
+    background: rgb(73, 206, 73);
+    color: rgb(202, 54, 54);
+    font-size: 1rem;
+    font-weight: 600;
+    padding:0.3rem 0.5rem;
+    border-radius: .3rem;
+    cursor: pointer;
+    outline: none;
+}
