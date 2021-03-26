@@ -1,4 +1,5 @@
 import './App.css';
+import PokemonApp from './PokeMon/PokemonApp';
 // import ClassCom from './ClassCom';
 // import FunctionalCom from './FunctionalCom';
 import TodoApp from './To-Do-List-App/TodoApp';
@@ -14,7 +15,8 @@ function App() {
       {/* <UseStateHook /> */}
       {/* <TodoApp /> */}
       {/* <UseEffects/> */}
-      <UseEffects2/>
+      {/* <UseEffects2/> */}
+      <PokemonApp />
     </div>
   );
 }
